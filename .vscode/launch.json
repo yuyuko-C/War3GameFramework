@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "lua",
+            "request": "attach",
+            "stopOnEntry": true,
+            "ip": "127.0.0.1",
+            "port": 4279,
+            "preLaunchTask": "运行",
+            "sourceMaps": [
+                [
+                    "scripts\\",
+                    "${workspaceRoot}\\scripts\\"
+                ],
+                [
+                    "lua\\",
+                    "${workspaceRoot}\\map\\lua\\"
+                ]
+            ]
+        },
+        {
+            "name": "Attach",
+            "type": "lua",
+            "request": "attach",
+            "stopOnEntry": true,
+            "ip": "127.0.0.1",
+            "port": 4279,
+            "sourceMaps": [
+                [
+                    "scripts\\",
+                    "${workspaceRoot}\\scripts\\"
+                ],
+                [
+                    "lua\\",
+                    "${workspaceRoot}\\map\\lua\\"
+                ]
+            ]
+        }
+    ]
+}

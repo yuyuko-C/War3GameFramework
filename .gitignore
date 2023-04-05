@@ -1,0 +1,8 @@
+/resource/*
+/sound/*
+/scripts/Gameplay/*
+tools/w3x2lni/*
+scripts/base/system/finite_state
+/*.w3x
+!/.w3x
+

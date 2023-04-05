@@ -1,0 +1,13 @@
+war3map.w3u 单位
+war3map.w3t 物品
+war3map.w3a 技能
+war3map.w3h 魔法特效
+war3map.w3q 升级
+war3map.w3e 地形
+war3map.doo 可破坏和地形装饰物
+war3map.shd 阴影
+war3map.w3c 摄像机
+war3map.w3r 区域
+war3map.wts 文字
+war3map.wtg 触发器
+war3map.j jass

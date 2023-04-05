@@ -1,0 +1,17 @@
+{
+    "Lua.diagnostics.globals": [
+        "game",
+        "Yuyuko",
+        "Events",
+        "Types",
+        "HI"
+    ],
+    "Lua.workspace.library": [
+        "${3rd}/Jass/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field",
+        "param-type-mismatch"
+    ]
+}
