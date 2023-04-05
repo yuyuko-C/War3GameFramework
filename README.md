@@ -1,4 +1,4 @@
-# War3GameFramework ![Github stars](https://img.shields.io/github/stars/yuyuko-C/War3GameFramework.svg)![Github forks](https://img.shields.io/github/forks/yuyuko-C/War3GameFramework.svg)
+# War3GameFramework ![Github stars](https://img.shields.io/github/stars/yuyuko-C/War3GameFramework.svg) ![Github forks](https://img.shields.io/github/forks/yuyuko-C/War3GameFramework.svg) 
 基于 MoeHero 改良研发的魔兽争霸3游戏研发框架,对原框架的各个组件进行了重写，解决了大量问题并规范了许多不规范的写法。
 
 本项目的部分设计思想参考了著名的Unity客户端框架 [EllanJiang/GameFramework](https://github.com/EllanJiang/GameFramework/) .
@@ -9,9 +9,15 @@
 
 ### 项目特性
 
-本次项目设计分为 GameFramework 层和 Gameplay 层. GameFramework 在我的设计中定义为通用层, Gameplay 层则是根据开发项目不同需要开发者自行设计的层级.
+本次项目设计分为 GameFramework 层和 Gameplay 层. 
+
+GameFramework 在我的设计中定义为通用层, 主要将 War3 的逻辑完全封装. Gameplay 层则是根据开发项目不同需要开发者自行设计的层级.
+
 因此 GameFramework 完全独立于 GamePlay 且基本无需变动, 开发者想要制作自己的游戏在 Gameplay 层编写自己的逻辑即可.
-（Gameplay 的实现 Demo 与个人项目紧密相关, 因脱敏考虑，Gameplay文件夹暂不提供，后续会放出）
+
+（Gameplay 的实现 Demo 与个人项目紧密相关, 因脱敏考虑，Gameplay文件夹后续放出）
+
+
 
 
 #### 相比于MoeHero
